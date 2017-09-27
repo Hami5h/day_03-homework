@@ -23,6 +23,8 @@ lines.insert(0, "Airport")
 puts lines
 
 # 6. Add 'York Place' to the end of the array
+lines.push("York Place")
+puts lines
 
 # 7. Remove 'Edinburgh Park' from the array using it's name
 
