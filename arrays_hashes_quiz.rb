@@ -43,9 +43,10 @@ lines = ['Gyle Centre', 'Edinburgh Park', 'Murrayfield Stadium', 'Haymarket', 'P
 my_hash = {"0" => "Zero", 1 => "One", :two => "Two", "two" => 2}
 
 # 1. How would you return the string `"One"`?
-puts my_hash.values_at(1)
+#puts my_hash.values_at(1)
 
 # 2. How would you return the string `"Two"`?
+puts my_hash.values_at(:two)
 
 # 3. How would you return the number `2`?
 
