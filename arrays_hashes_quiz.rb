@@ -27,6 +27,8 @@ lines.push("York Place")
 puts lines
 
 # 7. Remove 'Edinburgh Park' from the array using it's name
+lines.delete("Edinburgh Park")
+puts lines
 
 # 8. Delete 'Edinburgh Park' from the array by index
 
