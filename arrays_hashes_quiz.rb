@@ -103,9 +103,10 @@ users = {
 #puts users["Erik"][:favourite_numbers]
 
 # 4. Return the type of Avril's pet Colin
-puts users["Avril"][:pets]["colin"]
+#puts users["Avril"][:pets]["colin"]
 
 # 5. Return the smallest of Erik's favorite numbers
+puts users["Erik"][:favourite_numbers][0]
 
 # 6. Add the number `7` to Erik's favorite numbers
 
