@@ -7,6 +7,8 @@ result = lines.count
 puts result
 
 # 2. Return 'Edinburgh Park' from the array
+stop = lines[1]
+return stop
 
 # 3. How many ways can we return 'Princes Street' from the array?
 
