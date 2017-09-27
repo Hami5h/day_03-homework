@@ -56,8 +56,8 @@ my_hash = {"0" => "Zero", 1 => "One", :two => "Two", "two" => 2}
 #puts my_hash
 
 # 5. How would you add `{:four => 4}` to the hash?
-my_hash[:four] = 4
-puts my_hash
+#my_hash[:four] = 4
+#puts my_hash
 
 ### C. Given the following data structure:
 
@@ -94,6 +94,7 @@ users = {
 }
 
 # 1. Return Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
+puts users["Jonathan"][:twitter]
 
 # 2. Return Erik's hometown
 
