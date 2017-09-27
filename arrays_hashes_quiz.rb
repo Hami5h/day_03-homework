@@ -117,7 +117,12 @@ users = {
 #puts users["Erik"][:home_town]
 
 # 8. Add a pet dog to Erik called "Fluffy"
-users["Erik"][:pets][:dog] = "Fluffy"
-puts users["Erik"][:pets]
+#users["Erik"][:pets][:dog] = "Fluffy"
+#puts users["Erik"][:pets]
 
 # 9. Add yourself to the users hash
+users["Hamish"] = {
+:favourite_numbers => [23, 45, 9, 6, 12, 38],
+:talents => ["Lion Tamer", "All round good guy", "Witch doctor"]
+}
+puts users["Hamish"]
