@@ -19,6 +19,8 @@ position = lines.index("Haymarket")
 puts position
 
 # 5. Add 'Airport' to the start of the array
+lines.insert(0, "Airport")
+puts lines
 
 # 6. Add 'York Place' to the end of the array
 
