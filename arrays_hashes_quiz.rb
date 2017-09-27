@@ -97,11 +97,13 @@ users = {
 #puts users["Jonatha n"][:twitter]
 
 # 2. Return Erik's hometown
-puts users["Erik"][:home_town]
+#puts users["Erik"][:home_town]
 
 # 3. Return the array of Erik's favorite numbers
+#puts users["Erik"][:favourite_numbers]
 
 # 4. Return the type of Avril's pet Colin
+puts users["Avril"][:pets]["colin"]
 
 # 5. Return the smallest of Erik's favorite numbers
 
